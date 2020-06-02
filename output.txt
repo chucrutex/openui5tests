@@ -1,0 +1,13 @@
+
+⚠️  Process Failed With Error
+
+Error Message:
+[npm translator] Could not identify root project.
+
+Stack Trace:
+Error: [npm translator] Could not identify root project.
+    at C:\Users\menez\Programas\node\node_modules\@ui5\cli\node_modules\@ui5\project\lib\translators\npm.js:438:10
+    at async Object.generateProjectTree (C:\Users\menez\Programas\node\node_modules\@ui5\cli\node_modules\@ui5\project\lib\normalizer.js:28:14)
+    at async Object.serve.handler (C:\Users\menez\Programas\node\node_modules\@ui5\cli\lib\cli\commands\serve.js:82:15)
+
+If you think this is an issue of the UI5 Tooling, you might report it using the following URL: https://github.com/SAP/ui5-project/issues/new
