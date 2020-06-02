@@ -6,7 +6,7 @@
   "scripts": {
     "start":"ui5 serve --open ./dist/index.html",
     "build":"ui5 build --all",
-    "build-start":"ui5 serve --open ./dist/index.html && ui5 build --all"
+    "build-start":"ui5 build --all && cd dist && ui5 serve"
   },
   "keywords": [],
   "author": "",
