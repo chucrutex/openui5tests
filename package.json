@@ -1,9 +1,12 @@
 {
-  "name": "OpenUI5Tests",
+  "name": "openui5tests",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start":"ui5 serve",
+    "build":"ui5 build --all",
+    "build-start":"ui5 build --all && ui5 serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
