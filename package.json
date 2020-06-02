@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"ui5 serve",
+    "start":"ui5 serve --open ./dist/index.html",
     "build":"ui5 build --all",
-    "build-start":"ui5 build --all && ui5 serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-start":"ui5 serve --open ./dist/index.html && ui5 build --all"
   },
   "keywords": [],
   "author": "",

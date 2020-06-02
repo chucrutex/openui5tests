@@ -4,7 +4,7 @@ sap.ui.define([],
 
       "use strict";
 
-      return Controller.extend("XXX.controller.App", {
+      return Controller.extend("openui5tests.controller.App", {
 
          onInit: function () {},
 

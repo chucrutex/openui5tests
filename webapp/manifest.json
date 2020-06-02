@@ -1,7 +1,7 @@
 {
    "_version": "1.0.0",
    "sap.app": {
-      "id": "OpenUI5Tests",
+      "id": "openui5tests",
       "type": "application"
    },
    "sap.ui5": {
@@ -15,7 +15,7 @@
          }
       },
       "rootView": {
-         "viewName": "OpenUI5Tests.view.App",
+         "viewName": "openui5tests.view.App",
          "type": "XML",
          "async": true,
          "id": "app"
@@ -24,7 +24,7 @@
          "i18n": {
             "type": "sap.ui.model.resource.ResourceModel",
             "settings": {
-               "bundleName": "OpenUI5Tests.i18n.i18n",
+               "bundleName": "openui5tests.i18n.i18n",
                "supportedLocales": ["pt-BR"],
                "fallbackLocale": "pt-BR"
             }

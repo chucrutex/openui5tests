@@ -1,6 +1,6 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc" 
    xmlns="sap.m" 
-   controllerName="XXX.controller.App">
+   controllerName="openui5tests.controller.App">
    <App>
    </App>
 </mvc:View>
